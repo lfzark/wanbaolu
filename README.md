@@ -3,11 +3,18 @@
 
 ## 一分钟使用入门
 
+0. 下载代码
 
-进入Github仓库界面，点击Star 会自动弹出管理页面.
+1. 浏览器打开 chrome://extensions/
+
+2. 把整个文件夹拖入第二步打开的页面，这时你会看到
+
+![](pics/pic02.png)
+
+3. 进入Github仓库界面，点击Star 会自动弹出管理页面.
 
 
-![avatar](pic01.png)
+![](pics/pic01.png)
 
 
 
