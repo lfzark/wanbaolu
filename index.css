@@ -1,0 +1,78 @@
+#back-to-top{
+  opacity: 0.6; 
+  position: fixed; 
+  width: 50px; 
+  height: 50px; 
+  z-index: 2147483647; 
+  border: 0px; 
+  padding: 0px; 
+  min-width: auto; 
+  min-height: auto; 
+  max-width: none; 
+  max-height: none; 
+  top: 100px; 
+  right: 80px; 
+  margin: 0px; 
+  cursor: pointer;
+  display:none;
+}
+#close-btn{
+  display: inline-block;
+  opacity: 0.6; 
+  position: absolute; 
+  width: 20px; 
+  height: 20px; 
+  z-index: 2147483648; 
+  border: 0px; 
+  padding: 0px; 
+  min-width: auto; 
+  min-height: auto; 
+  max-width: none; 
+  max-height: none; 
+  top: -10px; 
+  right: -10px; 
+  margin: 0px; 
+  cursor: pointer;
+}
+
+
+
+/*背景层*/
+#popLayer {
+    display: none;
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    -moz-opacity: 0.95;
+    opacity:.95;
+    filter: alpha(opacity=95);/* 只支持IE6、7、8、9 */
+} 
+/*弹出层*/
+#popBox {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 999;
+    width: 300px;
+    height: 500px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;border-radius:5px;
+}
+#popBox .close{
+    text-align: right;
+    margin-right: 5px;
+    background-color: #F8F8F8;border-top-left-radius:5px;border-top-right-radius:5px;
+}
+/*关闭按钮*/
+#popBox .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+
